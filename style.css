@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100% !important;
+    font-family: "Poppins", sans-serif;  
+    overflow-x: hidden;
+}
+/*nav*/
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    color: black;
+    padding: 1rem;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 1px 10px;
+}
+
+nav .logo {
+    display: none; 
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    color: #45C4B0;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+html {
+    padding-bottom: 1000px;
+}
+
+main {
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+}
+main img {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 18%;
+}
+main h1 {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+main p {
+    text-align: center;
+    top: 36%;
+    position: absolute;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+main .btn {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #45C4B0;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+main .btn:hover {
+    background-color: transparent;
+    color: #45C4B0;
+    border: 1px solid #45C4B0;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container .elemento-sobre {
+    width: 8%;
+    height: 0.8%;
+    border-radius: 50px;
+    background-color: #45C4B0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container p {
+    text-align: center;
+    margin: 4px;
+    margin-top: 13%;
+    color: rgba(0, 0, 0, 0.774);
+    left: 50%;
+    
+}
+
+.container h2 {
+    margin: 4px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.container ul {
+    text-align: center;
+    margin-top: 12%;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.container .bold {
+    font-weight: 600;
+    color: black;
+}
+
+.container .curriculo {
+    background-color: #45C4B0;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+.container .curriculo:hover {
+    background-color: transparent;
+    color: #45C4B0;
+    border: 1px solid #45C4B0;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.habilidades {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    position: absolute;
+    top: 200%;
+   
+}
+
+.habilidades h1 {
+    text-align: center;
+}
+
+.habilidades .habilidades-projetos {
+    width: 8%;
+    height: 6.5%;
+    border-radius: 50px;
+    background-color: #45C4B0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    position: absolute;
+    top: 210%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box .card {
+    background-color: transparent;
+    border: 2px solid #45C4B0;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    padding: 2px;
+    text-align: center;
+    color: #45C4B0;
+}
+
+.box .card:hover {
+    background-color: #45C4B0;
+    color: white;
+    border: 2px solid white;
+    transition: ease 0.2s;
+}
+
+.projetos {
+    width: 100%;
+    height: 92%;
+    background-color: transparent;
+    position: absolute;
+    top: 250%;
+}
+
+.projetos h1 {
+    text-align: center;
+}
+
+.projetos .elemento-projeto {
+    width: 8%;
+    height: 0.8%;
+    border-radius: 50px;
+    background-color: #45C4B0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.projetos p {
+    text-align: center;
+    margin: 4px;
+    margin-top: 13%;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.projetos .bbs {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.projetos .h2-bbs {
+    text-align: center;
+    margin: 4px;
+    margin-top: 20%;
+}
+
+.projetos .btn-bbs {
+    background-color: #45C4B0;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+}
+
+.projetos .btn-bbs:hover {
+    background-color: transparent;
+    color: #45C4B0;
+    border: 1px solid #45C4B0;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.projetos-2 {
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    background-color: transparent;
+    top: 347%;
+}
+
+.projetos-2 h2 {
+    text-align: center;
+}
+
+.projetos-2 img {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.projetos-2 .btn-portifolio {
+    background-color: #45C4B0;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+}
+
+.projetos-2 .btn-portifolio:hover {
+    background-color: transparent;
+    color: #45C4B0;
+    border: 1px solid #45C4B0;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.projetos-3 {
+    width: 100%;
+    height: 55%;
+    background-color: transparent;
+    position: absolute;
+    top: 407%;
+}
+
+.projetos-3 h2 {
+    text-align: center;
+}
+
+.projetos-3 img {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.projetos-3 .btn-login {
+    background-color: #45C4B0;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+}
+
+.projetos-3 .btn-login:hover {
+    background-color: transparent;
+    color: #45C4B0;
+    border: 1px solid #45C4B0;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.contato {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    background-color: transparent;
+    top: 466%;
+}
+
+.contato h2 {
+    text-align: center;
+}
+
+.contato .elemento-contato {
+    width: 8%;
+    height: 1.5%;
+    border-radius: 50px;
+    background-color: #45C4B0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contato .logos {
+    display: flex;
+    width: 100%;
+    margin-left: 33px;
+    margin-top: 10%;
+    
+}
+
+.contato .logos img {
+  width: 50%;
+}
+
+footer {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    top: 500%;
+    position: absolute;
+    color: white;
+    z-index: 1000;
+}
+
+footer .footer-section {
+    position: relative;
+    width: 95%;
+    height: 30%;
+    background-color: transparent;
+    margin-top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+footer .footer-section ul {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer .footer-section a {
+    color: white;
+}
+
+footer .footer-section-2 {
+    position: relative;
+    width: 95%;
+    height: 40%;
+    background-color: transparent;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+footer hr {
+    margin-top: 15px;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    border-radius: 5px;
+}
+
+footer .copy {
+    font-size: small;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer .copy span {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        top: 90%;
+    }
+    .projetos-2 {
+        top: 370%;
+    }
+    .projetos-3 {
+        top: 447%;
+    }
+    .contato {
+        top: 520%;
+    }
+    footer {
+        top: 560%;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .projetos {
+        top: 240%;
+    }
+    .contato .logos {
+        margin-left: 47px;
+    }
+}
+
+@media screen and (min-width: 627px) {
+    .habilidades {
+        top: 210%;
+    }
+    .box {
+    top: 225%;
+    }
+    .projetos {
+        top: 270%;
+    }
+    .projetos-2 {
+        top: 410%;
+    }
+    .projetos-3 {
+        top: 500%;
+    }
+    .contato {
+    top: 585%;
+    }
+    footer {
+        top: 630%;
+    }
+
+}
+
+@media screen and (min-width: 755px) {
+    .projetos .h2-bbs {
+        margin-top: 7%;
+    }
+    .projetos-2 {
+        top: 405%;
+    }
+    .contato {
+        top: 600%;
+    }
+    footer {
+        top: 660%;
+    }
+}
+
+@media screen and (min-width: 848px) {
+    .contato {
+        top: 635%;
+    }
+    footer {
+        top: 690%;
+    }
+    .projetos-3 {
+        top: 530%;
+    }
+    .projetos-2 {
+        top: 425%;
+    }
+    .projetos .h2-bbs {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .projetos p {
+        margin-top: 5%;
+    }
+    .projetos-3 {
+        top: 540%;
+    }
+    .contato {
+        top: 665%;
+    }
+    footer {
+        top: 730%;
+    }
+    .contato .logos {
+        margin-left: 95px;
+    }
+    .habilidades {
+        top: 215%;
+    }
+    
+}
